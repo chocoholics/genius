@@ -1,0 +1,21 @@
+{
+    "name": "dawson/genius",
+    "description": "A wrapper for the Genius API made for Laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Dawson",
+            "email": "hi@joedawson.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "~6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dawson\\Genius\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
