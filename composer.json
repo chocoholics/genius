@@ -1,6 +1,6 @@
 {
     "name": "dawson/genius",
-    "description": "A wrapper for the Genius API made for Laravel.",
+    "description": "A simple package to fetch data from the Genius API, made for Laravel.",
     "license": "MIT",
     "authors": [
         {
