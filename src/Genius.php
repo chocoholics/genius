@@ -15,4 +15,16 @@ class Genius
     {
         return new Resources\Annotations($id, $format);
     }
+
+    /**
+     * Songs
+     * 
+     * @param  integer $id
+     * @param  string $format
+     * @return mixed
+     */
+    public function songs($id, $format = 'dom')
+    {
+        return new Resources\Songs($id, $format);
+    }
 }
