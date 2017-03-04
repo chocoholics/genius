@@ -5,17 +5,14 @@ namespace Dawson\Genius;
 class Genius
 {
 	/**
-	 * Base API Url
+	 * Annotations
 	 * 
-	 * @var string
+	 * @param  integer $id
+	 * @param  string $format
+	 * @return mixed
 	 */
-	protected $baseUrl = 'https://api.genius.com/';
-
-	/**
-	 * Constructor
-	 */
-	public function __construct()
+	public function annotations($id, $format = 'dom')
 	{
-
+		return new Resources\Annotations($id, $format);
 	}
 }
