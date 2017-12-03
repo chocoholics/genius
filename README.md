@@ -1,31 +1,33 @@
 # Genius
 
-This package was made to fetch data from the Genius API, this is very much still a work in progress. If you plan on relying on this to fetch information from their API using this package, I would recommend **not** using this package for now.
+This package was cloned from Joe Dawson's package which may be found at https://github.com/JoeDawson/genius.
+
+This package was made to fetch data from the Genius API, this is very much still a work in progress. If you plan on relying on this to fetch information from their API using this package, we would recommend **not** using this package for now.
 
 ## Installation
 
 Firstly you'll need to pull this in using Composer.
 
 ```
-composer require dawson/genius
+composer require chocoholics/genius
 ```
 
-After you have successfully installed, add the follow Service Provider to your zconfig/app.php`
+After you have successfully installed, add the Service Provider to your config/app.php`
 
 ```php
-Dawson\Genius\GeniusServiceProvider::class,
+Chocoholics\Genius\GeniusServiceProvider::class,
 ```
 
 And the following facade, also in `config/app.php`
 
 ```php
-'Genius' => Dawson\Genius\Facades\Genius::class
+'Genius' => Chocoholics\Genius\Facades\Genius::class
 ```
 
 Now we'll go ahead and publish the `genius.php` configuration file.
 
 ```
-php artisan vendor:publish --provider="Dawson\Genius\GeniusServiceProvider"
+php artisan vendor:publish --provider="Chocoholics\Genius\GeniusServiceProvider"
 ```
 
 Open up the `genius.php`, you will see that you will require an access token. Create one for your API client on Genius and add it to your `env` file.

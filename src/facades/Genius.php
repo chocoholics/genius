@@ -1,6 +1,6 @@
 <?php
 
-namespace Dawson\Genius\Facades;
+namespace Chocoholics\Genius\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

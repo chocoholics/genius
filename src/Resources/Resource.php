@@ -1,6 +1,6 @@
 <?php
 
-namespace Dawson\Genius\Resources;
+namespace Chocoholics\Genius\Resources;
 
 use GuzzleHttp\Client;
 

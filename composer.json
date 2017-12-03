@@ -1,11 +1,11 @@
 {
-    "name": "dawson/genius",
+    "name": "chocoholics/genius",
     "description": "A simple package to fetch data from the Genius API, made for Laravel.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Joe Dawson",
-            "email": "hi@joedawson.me"
+            "name": "Chocoholics",
+            "email": "obura@tongoi.com"
         }
     ],
     "require": {
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Dawson\\Genius\\": "src/"
+            "Chocoholics\\Genius\\": "src/"
         }
     },
     "minimum-stability": "stable"

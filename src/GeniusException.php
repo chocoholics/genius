@@ -1,6 +1,6 @@
 <?php
 
-namespace Dawson\Genius;
+namespace Chocoholics\Genius;
 
 class GeniusException extends \Exception
 {

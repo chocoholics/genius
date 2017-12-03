@@ -1,9 +1,9 @@
 <?php
 
-namespace Dawson\Genius\Resources;
+namespace Chocoholics\Genius\Resources;
 
 use GuzzleHttp\Exception\ClientException;
-use Dawson\Genius\GeniusException;
+use Chocoholics\Genius\GeniusException;
 
 class Songs extends Resource
 {
