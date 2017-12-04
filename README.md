@@ -21,7 +21,7 @@ Chocoholics\Genius\GeniusServiceProvider::class,
 And the following facade, also in `config/app.php`
 
 ```php
-'Genius' => Chocoholics\Genius\Facades\Genius::class
+'Genius' => Chocoholics\Genius\Facades\Genius::class,
 ```
 
 Now we'll go ahead and publish the `genius.php` configuration file.
